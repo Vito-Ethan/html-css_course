@@ -1,270 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/text.css" />
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-    p {
-      font-family: Arial;
-      margin-top: 0px;
-      margin-bottom: 0px;
-    }
-
-    .video-title {
-      font-weight: bold;
-      font-size: 18px;
-      width: 300px;
-      line-height: 24px;
-      margin-bottom: 5px;
-    }
-
-    .video-stats {
-      font-size: 14px;
-      color: rgb(96, 96, 96);
-      margin-bottom: 20px;
-    }
-
-    .video-author {
-      color: rgb(96, 96, 96);
-      font-size: 14px;
-      margin-bottom: 20px;
-    }
-
-    .video-description {
-      color: rgb(96, 96, 96);
-      font-size: 14px;
-      width: 280px;
-      line-height: 22px;
-      margin-bottom: 22px;
-    }
-
-    .apple-text {
-      font-size: 14px;
-      background-color: rgb(227, 65, 64);
-      color: white;
-      text-align: center;
-      padding: 18px 0px;
-    }
-
-    .underline:hover {
-      text-decoration: underline;
-      cursor: pointer;
-    }
-
-    /* practice */
-    .tahoma {
-      font-family: Tahoma;
-      font-weight: bold;
-    }
-
-    .arial {
-      font-family: Arial;
-      font-weight: bold;
-    }
-
-    .sales-red {
-      font-family: Arial;
-      color: red;
-      font-size: 12px;
-    }
-
-    .verdana {
-      font-family: Verdana;
-      font-size: 14px;
-      font-weight: bold;
-    }
-
-    .verdana-subtitle {
-      font-family: Verdana;
-      font-size: 12px;
-      color: rgb(107, 107, 107);
-      margin-bottom: 10px;
-    }
-
-    .verdana-p {
-      font-family: Verdana;
-      font-size: 12px;
-      width: 250px;
-      margin-bottom: 10px;
-    }
-
-    .verdana-btn {
-      font-family: Verdana;
-      font-size: 10px;
-      background-color: darkgreen;
-      color: white;
-      border: none;
-      border-radius: 3px;
-      padding: 5px 10px;
-      cursor: pointer;
-    }
-
-    .apple-title {
-      font-family: Arial;
-      font-weight: bold;
-      text-align: center;
-      margin-bottom: 10px;
-    }
-
-    .apple-subtitle {
-      font-family: Arial;
-      font-size: 10px;
-      text-align: center;
-      margin-bottom: 10px;
-    }
-
-    .apple-link {
-      font-family: Arial;
-      font-size: 10px;
-      text-align: center;
-      color: rgb(17, 102, 231);
-    }
-
-    .mac-arial {
-      font-family: Arial;
-      text-align: center;
-    }
-
-    .mac-title {
-      color: orange;
-      text-align: center;
-      font-weight: bold;
-      font-size: 10px;
-    }
-
-    .mac-name {
-      font-weight: bold;
-      text-align: center;
-    }
-
-    .mac-description {
-      font-weight: bold;
-      font-size: 32px;
-      text-align: center;
-      margin-bottom: 10px;
-    }
-
-    .mac-price {
-      text-align: center;
-      font-size: 12px;
-      margin-bottom: 10px;
-    }
-
-    .mac-btn {
-      background-color: rgb(76, 100, 210);
-      color: white;
-      border: none;
-      border-radius: 10px;
-      font-size: 10px;
-      font-weight: bold;
-      padding: 5px 10px;
-      cursor: pointer;
-    }
-
-    .center {
-      text-align: center;
-    }
-
-    .stock-arial {
-      font-family: Arial;
-    }
-
-    .price {
-      font-weight: bold;
-      font-size: 20px;
-      margin-right: 5px;
-    }
-
-    .price-title {
-      margin-bottom: 3px;
-    }
-
-    .currency {
-      color: grey;
-      font-size: 10px;
-      font-weight: bold;
-    }
-
-    .delta {
-      color: green;
-      font-size: 10px;
-    }
-
-    .after {
-      color: grey;
-      font-size: 10px;
-    }
-
-    .after-delta {
-      color: red;
-      font-size: 10px;
-    }
-
-    .code-title {
-      font-size: 10px;
-      margin-bottom: 3px;
-    }
-
-    .user-at {
-      color: grey;
-    }
-
-    .code-description {
-      font-size: 10px;
-      width: 380px;
-      margin-bottom: 10px;
-    }
-
-    .code-closer {
-      font-size: 10px;
-    }
-
-    .code-at {
-      color: rgb(66, 162, 222);
-    }
-  </style>
-</head>
-
-<body>
-  <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
-  <p class="video-stats">3.4M Views &#8901; 6 months ago</p>
-  <p class="video-author">Marques Brownlee &#10003;</p>
-  <p class="video-description">Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from
-    Google's CEO. Shoutout to Sundar!</p>
-  <p class="apple-text">Shop early for the best selection of holiday favourites. <span class="underline">Shop Now</span>
-    &#62;</p>
-  <hr>
-  <p class="tahoma">This is Tahoma Font</p>
-  <hr>
-  <p class="arial">Biggest Deals of the Year!</p>
-  <p class="sales-red"><em>Sales end Tuesday</em></p>
-  <hr>
-  <p class="verdana">HTML CSS Course</p>
-  <p class="verdana-subtitle">Beginner to Pro</p>
-  <p class="verdana-p">In this course, we'll learn the skills you need to become a developer</p>
-  <button class="verdana-btn">Get Started</button>
-  <hr>
-  <p class="apple-title">Shopping for your business?</p>
-  <p class="apple-subtitle">See how Apple at Work can help.</p>
-  <p class="apple-link">Learn more &#62;</p>
-  <hr>
-  <p class="mac-title mac-arial">New</p>
-  <p class="mac-name mac-arial">MacBook Pro</p>
-  <p class="mac-description mac-arial">Supercharged for pros.</p>
-  <p class="mac-price">From $1999</p>
-  <p class="center"><button class="mac-btn mac-arial">Buy</button></p>
-  <hr>
-  <p class="price-title"><span class="price">1,049.61</span><span class="currency">USD</span></p>
-  <p class="delta">+18.05 (1.75%) today</p>
-  <p><span class="after">After hours 1,048.00</span> <span class="after-delta">-1.61 (0.15%)</span></p>
-  <hr>
-  <p class="code-title"><strong>freeCodeCamp.org</strong> <span class="user-at">@freeCodeCamp 1h</span></p>
-  <p class="code-description">As a web developer, you'll want to make your projects easy to use and navigate around.</p>
-  <p class="code-closer">Here <span class="code-at">@chp_it</span> outlines the top skills new developers should have
-  </p>
-</body>
-
+  <body>
+    <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+    <p class="video-stats">3.4M Views &#8901; 6 months ago</p>
+    <p class="video-author">Marques Brownlee &#10003;</p>
+    <p class="video-description">
+      Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google's CEO. Shoutout to Sundar!
+    </p>
+    <p class="apple-text">Shop early for the best selection of holiday favourites. <span class="underline">Shop Now</span> &#62;</p>
+    <hr />
+    <p class="tahoma">This is Tahoma Font</p>
+    <hr />
+    <p class="arial">Biggest Deals of the Year!</p>
+    <p class="sales-red"><em>Sales end Tuesday</em></p>
+    <hr />
+    <p class="verdana">HTML CSS Course</p>
+    <p class="verdana-subtitle">Beginner to Pro</p>
+    <p class="verdana-p">In this course, we'll learn the skills you need to become a developer</p>
+    <button class="verdana-btn">Get Started</button>
+    <hr />
+    <p class="apple-title">Shopping for your business?</p>
+    <p class="apple-subtitle">See how Apple at Work can help.</p>
+    <p class="apple-link">Learn more &#62;</p>
+    <hr />
+    <p class="mac-title mac-arial">New</p>
+    <p class="mac-name mac-arial">MacBook Pro</p>
+    <p class="mac-description mac-arial">Supercharged for pros.</p>
+    <p class="mac-price">From $1999</p>
+    <p class="center"><button class="mac-btn mac-arial">Buy</button></p>
+    <hr />
+    <p class="price-title"><span class="price">1,049.61</span><span class="currency">USD</span></p>
+    <p class="delta">+18.05 (1.75%) today</p>
+    <p><span class="after">After hours 1,048.00</span> <span class="after-delta">-1.61 (0.15%)</span></p>
+    <hr />
+    <p class="code-title"><strong>freeCodeCamp.org</strong> <span class="user-at">@freeCodeCamp 1h</span></p>
+    <p class="code-description">As a web developer, you'll want to make your projects easy to use and navigate around.</p>
+    <p class="code-closer">Here <span class="code-at">@chp_it</span> outlines the top skills new developers should have</p>
+  </body>
 </html>
