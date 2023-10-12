@@ -1,0 +1,103 @@
+.image {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.image2 {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border: 2px solid black;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.round {
+  border-radius: 2px;
+  border: 1px solid gray;
+}
+
+.fancy {
+  border-radius: 150px;
+  border: none;
+  box-shadow: 0px 0px 5px gray;
+  padding: 5px 10px;
+  width: 300px;
+  font-size: 12px;
+}
+
+.linked-in-text {
+  font-family: Arial;
+  font-size: 10px;
+  color: gray;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.linked-in-input {
+  border-radius: 2px;
+  border: 1px solid gray;
+}
+
+#top {
+  margin-bottom: 5px;
+}
+
+#bottom {
+  margin-top: 10px;
+}
+
+.linked-in-btn {
+  background-color: rgb(28, 90, 198);
+  color: rgb(238, 238, 238);
+  padding: 10px 100px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.align {
+  vertical-align: middle;
+}
+
+.twitter-search {
+  border: none;
+  font-size: 12px;
+  width: 300px;
+}
+
+.round-profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.tweet {
+  font-family: Arial;
+  background-color: rgb(29, 161, 242);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.tweet:hover {
+  opacity: 0.8;
+}
+
+.profile-box {
+  box-shadow: 0px 0px 5px gray;
+  width: 340px;
+}

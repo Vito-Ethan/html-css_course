@@ -1,0 +1,230 @@
+.lp {
+  background-color: lightpink;
+  width: 100px;
+}
+
+.lb {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.flex-1 {
+  display: flex;
+  height: 70px;
+}
+
+.flex-1 .lp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lp .item {
+  background-color: black;
+  color: white;
+}
+
+.flex-2 {
+  display: flex;
+  height: 50px;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row2 div {
+  background-color: black;
+  color: white;
+}
+
+.flex-3 {
+  font-family: Arial;
+  width: 300px;
+  padding: 5px 10px;
+  box-shadow: 0px 0px 2px grey;
+  border-radius: 2px;
+}
+
+.top {
+  color: grey;
+  font-size: 10px;
+}
+
+.bot {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0px;
+  align-items: center;
+}
+
+.user-pic {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+
+.left {
+  margin-right: 5px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.from {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.time {
+  font-size: 10px;
+  color: grey;
+}
+
+.subject {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.body {
+  font-size: 12px;
+  color: grey;
+}
+
+.bot-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bot-container {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px;
+  row-gap: 10px;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+  background-color: blueviolet;
+  width: 400px;
+}
+
+.one {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.two {
+  background-color: lightpink;
+  width: 300px;
+}
+
+.three {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.flex-4 {
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+  font-family: Arial;
+  padding: 5px;
+}
+
+.f4-left {
+  width: 50px;
+  text-align: center;
+}
+
+.twitter-profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.f4-right {
+  flex: 1;
+}
+
+.handle,
+.at,
+.tweet-body,
+.link-body,
+.link,
+.link-title {
+  font-size: 12px;
+}
+
+.handle {
+  font-weight: 700;
+}
+
+.at {
+  color: grey;
+}
+
+.tweet-body {
+  margin-bottom: 10px;
+  line-height: 15px;
+}
+
+.link-body {
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid rgb(180, 180, 180);
+  overflow: hidden;
+}
+
+.link-left {
+  flex: 1;
+  background-color: grey;
+}
+
+.link-right {
+  flex: 3;
+  padding: 15px 10px;
+}
+
+.link {
+  color: grey;
+  margin-bottom: 3px;
+}
+
+.link-title {
+  line-height: 15px;
+}
+
+.flex-5 {
+  display: flex;
+  background-color: purple;
+  width: 100px;
+  height: 20px;
+}
+
+.oneh {
+  flex: 25;
+}
+
+.oneh2 {
+  flex: 100;
+  background-color: red;
+}

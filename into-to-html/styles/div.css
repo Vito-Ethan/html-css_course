@@ -1,0 +1,142 @@
+.red-square {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+
+.green-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: green;
+}
+
+.service p {
+  margin: 0px 0px 10px 0px;
+}
+
+.service button {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.service {
+  border: 1px solid grey;
+  width: 300px;
+  padding: 10px;
+}
+
+.youtube {
+  background-color: rgb(36, 36, 36);
+  padding: 10px;
+  width: 300px;
+}
+
+.youtube p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  margin: 0px 0px 5px 0px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sub {
+  margin: 0px;
+  color: grey;
+  font-size: 12px;
+}
+
+.align {
+  vertical-align: middle;
+}
+
+.tweet {
+  border: 1px solid grey;
+  border-radius: 2px;
+  padding: 5px;
+  width: 300px;
+}
+
+.profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.tweet-box {
+  border: none;
+  font-family: Arial;
+  font-size: 10px;
+  width: 190px;
+}
+
+.tweet-btn {
+  font-family: Arial;
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(29, 161, 242);
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.tweet-btn:hover {
+  opacity: 0.8;
+}
+
+.card {
+  display: inline-block;
+  font-family: Arial;
+  width: 100px;
+  box-shadow: 0px 0px 3px grey;
+  margin-right: 5px;
+}
+
+.card-profile {
+  width: 100px;
+  height: 130px;
+  object-fit: cover;
+  object-position: right;
+}
+
+.card-info {
+  margin: 0px 0px 0px 2px;
+}
+
+.card-name {
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0px 0px 3px 0px;
+}
+
+.card-mutual {
+  font-size: 10px;
+  color: grey;
+  margin: 0px 0px 10px 0px;
+}
+
+.card-add {
+  background-color: #48aaad;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-size: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  transition: opacity 0.2s;
+}
+
+.card-add:hover {
+  opacity: 0.8;
+}
